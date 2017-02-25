@@ -1,0 +1,14 @@
+.vertical-line {
+  height:10px; 
+  background:#4aaaa5;
+  }
+
+.footer{
+  background-color: #666;
+  border-color: #ccc;
+  color: white;
+  clear: both;
+  text-align: center; 
+  padding-bottom: 30px;
+}
+  
