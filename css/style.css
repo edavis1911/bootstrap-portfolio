@@ -1,3 +1,25 @@
+header {
+	border-color: #ccc;
+	font-family: "Georgia", "Times", "Times New Roman", Serif;
+	margin-bottom: 20px;
+}
+.head-padding{
+	padding-left: 20px;
+	padding-right:20px;
+}
+
+.nav-align{
+	margin-top: 20px;
+}
+
+.right-text-gap{
+  margin-right: 15px; 
+}
+
+p{
+	line-height: 200%;
+}
+
 .vertical-line {
   height:10px; 
   background:#4aaaa5;
