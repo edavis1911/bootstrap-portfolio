@@ -1,15 +1,30 @@
 header {
 	border-color: #ccc;
 	font-family: "Georgia", "Times", "Times New Roman", Serif;
-	margin-bottom: 20px;
 }
-.head-padding{
-	padding-left: 20px;
-	padding-right:20px;
+
+header:.container{
+  margin: 0;
+}
+
+.logo {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding:0 20px;
+  text-align: center;
+  line-height: 90px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  background: #4aaaa5;
 }
 
 .nav-align{
-	margin-top: 20px;
+	margin-top: 60px;
+}
+
+.navbar-green{
+  background-color: green;
 }
 
 .right-text-gap{
@@ -19,6 +34,48 @@ header {
 p{
 	line-height: 200%;
 }
+
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  float: left;
+  margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 90%;
+  border: 0 none;
+  opacity: .8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  float: left;
+}
+
 
 .vertical-line {
   height:10px; 
